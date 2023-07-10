@@ -1,11 +1,11 @@
 const express = require("express");
-const port = 1001;
+const port = 1003;
 
 const app= express();
 
 
   app.get('/', (req, res) => {
-      res.sendFile("JAVASCRIPT");
+      res.send("JAVASCRIPT");
     
     })
   
